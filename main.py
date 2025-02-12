@@ -3,30 +3,36 @@ import urllib.request
 import webbrowser
 import os
 import sys
-import clear
+
 
 class IPAddressLocator:
     def __init__(self):
         self.R = '\033[91m'
         self.B = '\033[1;34m'
         self.W = '\033[0;37m'
+        self.G = '\033[1;32m'  # Yeşil renk kodu ekledim
         self.path = os.path.isfile('/data/data/com.termux/files/usr/bin/bash')
 
     def start(self):
-        os.system('clear')
+        os.system('cls')  # Windows için ekran temizleme komutu
         print(self.B + """
-                                        _ ______ _      _                
-      ████████╗██████╗ ██╗   ██╗███████╗████████╗██╗   ██╗
-      ╚══██╔══╝██╔══██╗██║   ██║██╔════╝╚══██╔══╝╚██╗ ██╔╝
-         ██║   ██████╔╝██║   ██║███████╗   ██║    ╚████╔╝ 
-         ██║   ██╔══██╗██║   ██║╚════██║   ██║     ╚██╔╝  
-         ██║   ██║  ██║╚██████╔╝███████║   ██║      ██║   
-         ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝      ╚═╝   """ + self.W + self.W + """
+ 
+                                                                  .   
+                                                                .o8   
+ .oooo.o oooo  oooo  oo.ooooo.  oo.ooooo.   .ooooo.  oooo d8b .o888oo 
+d88(  "8 `888  `888   888' `88b  888' `88b d88' `88b `888""8P   888   
+`"Y88b.   888   888   888   888  888   888 888   888  888       888   
+o.  )88b  888   888   888   888  888   888 888   888  888       888 . 
+8""888P'  `V88V"V8P'  888bod8P'  888bod8P' `Y8bod8P' d888b      "888" 
+                      888        888                                  
+                     o888o      o888o                                 
+                                                                      
+ """ + self.W + self.W + """
         
         
          IP Checker
         
-    """ + self.W + self.W + """----""" + self.B + """ Github: truusty """ + self.W + """----""" + self.W + "")
+    """ + self.W + self.W + """----""" + self.B + """ Github: dk6m """ + self.W + """----""" + self.W + "")
 
     def m3(self):
         try:
