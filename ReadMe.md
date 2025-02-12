@@ -1,29 +1,35 @@
-# IP Address Locator
+#  **IP Address Locator**
 
-This project is a simple Python application used to query the location details of IP addresses and URLs. Users can check their own IP address or query others to get information such as city, country, latitude, and longitude.
+Welcome to the **IP Address Locator** project! This Python-based application lets you easily **find the location details** of any IP address or URL. With a simple, interactive, and colorful terminal interface, you can check details like **IP address**, **city**, **country**, **latitude**, **longitude**, and even open the location in **Google Maps**! 
 
-## Features
+---
 
-- **Check Your IP**: Find out your own IP address.
-- **Check Other IPs**: Find the location of any other IP address.
-- **Map Link**: Provides a Google Maps link showing the geographical location of the IP address.
-- **Interactive User Interface**: User-friendly, colorful terminal interface.
+##  **Features**
 
-## Usage
+- **Check Your IP**: Instantly find out your own public IP address.
+- **Check Any IP**: Enter any IP address and find its geographical details.
+- **Google Maps Link**: Get a link to open the location on **Google Maps**.
+- **Interactive Interface**: A user-friendly and colorful command-line interface with options.
 
-### Requirements
-This project requires Python 3 and the following libraries:
+---
+
+##  **Getting Started**
+
+###  **Requirements**
+This project is built with **Python 3**. All required libraries are part of Python's standard library, so no additional installations are necessary.
+
 - `json`
 - `urllib`
 - `webbrowser`
 - `os`
 - `sys`
 
-These libraries are part of Python's default libraries, so no extra installation is required.
+---
 
-### Getting Started
+###  **Installation**
 
-1. **Download the project**:
-   You can clone the GitHub repository to your local machine:
+To start using the **IP Address Locator**, follow these simple steps:
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/dk6m/IP-Checker.git
