@@ -1,20 +1,29 @@
-# IP - Checker
+# IP Address Locator
 
-A Basic IP-CHECK tool that finds information about the entered IP.
+This project is a simple Python application used to query the location details of IP addresses and URLs. Users can check their own IP address or query others to get information such as city, country, latitude, and longitude.
 
-It's also available to look at your own IP.
- 
-![alt text](https://files.catbox.moe/9jlu3d.PNG)
+## Features
 
-## Requirements
-- Python `3.x`
-- import `json`
-- import `urllib.request`
-- import `webbrowser`
-- import `os`
-- import `sys`
-- import `clear` 
+- **Check Your IP**: Find out your own IP address.
+- **Check Other IPs**: Find the location of any other IP address.
+- **Map Link**: Provides a Google Maps link showing the geographical location of the IP address.
+- **Interactive User Interface**: User-friendly, colorful terminal interface.
 
-### Credits: 
-Github: `truusty` | Discord: `trusty.py`
+## Usage
 
+### Requirements
+This project requires Python 3 and the following libraries:
+- `json`
+- `urllib`
+- `webbrowser`
+- `os`
+- `sys`
+
+These libraries are part of Python's default libraries, so no extra installation is required.
+
+### Getting Started
+
+1. **Download the project**:
+   You can clone the GitHub repository to your local machine:
+   ```bash
+   git clone https://github.com/dk6m/IP-Checker.git
